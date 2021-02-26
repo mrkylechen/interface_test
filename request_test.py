@@ -13,6 +13,7 @@ url_myblog = "http://121.5.64.189"
 
 r = requests.request("get",url=url)
 print(r.text)
+print("")
 # d = json.loads(r.text)
 # print(d)
 
